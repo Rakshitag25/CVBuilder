@@ -1,0 +1,52 @@
+/* .page-break {
+    page-break-before: always;
+  } */
+  
+ 
+    /* .avoid-break {
+      page-break-inside: avoid;
+      break-inside: avoid;
+    } */
+    /* <div>
+    .maybe-break {
+      break-before: page;   /* force new page */
+      /* margin-top: 50px;     /* add margin on new page */
+    
+  /* }
+  </div> */ 
+
+/* 
+  @media print {
+    .second-page {
+      padding-top: 30px;
+    }
+  }
+   */
+    /* .maybe-break {
+      break-before: page;
+      page-break-before: always;
+      margin-top: 40px !important; /* adjust as needed */
+
+    */
+      .avoid-break {
+      page-break-inside: avoid;
+      break-inside: avoid;
+    }
+    .important-block {
+      break-inside: avoid;
+      page-break-inside: avoid;
+    }
+    
+      .add-padding-top {
+        padding-top: 200px;
+      }
+      body {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+    
+      .break-inside-avoid {
+        break-inside: avoid;
+        page-break-inside: avoid; /* for PDF support */
+      }
+  
